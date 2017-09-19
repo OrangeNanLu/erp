@@ -2,5 +2,5 @@ import java.util.List ;
 public class Admin {
 	private List<Emp> emps ;
 	private Integer aid ;
-	private List<Action> actions ;
+	private String password ;
 }
