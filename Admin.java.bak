@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+package cn.mldn.hr.vo ;
+import java.io.* ;
+public class Admin implements Serializable{
+	private String aid ;
+=======
+import java.util.List ;
+public class Admin {
+	private List<Emp> emps ;
+	private Integer aid ;
+>>>>>>> ab86a11d341915e13aae70740f2bb6e78fc00116
+	private String password ;
+}
